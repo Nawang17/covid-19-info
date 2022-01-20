@@ -1,3 +1,25 @@
 .main {
+  max-width: 1000px;
+  margin: 0 auto;
   margin-top: 87px;
+  height: 90.5vh;
+  padding: 0 10px;
+}
+.section {
+  align-items: center;
+
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 75px;
+}
+.sectionnames {
+  font-size: 25px;
+  color: #657786;
+  font-weight: bold;
+}
+.sectiondata {
+  font-size: 55px;
+  font-weight: bold;
 }
