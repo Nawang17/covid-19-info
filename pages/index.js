@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import moment from "moment";
+import Countries from "./Countries";
 export default function Home({ posts, lastupdated }) {
   return (
     <>
