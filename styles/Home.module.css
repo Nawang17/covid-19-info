@@ -22,3 +22,12 @@
   font-size: 55px;
   font-weight: bold;
 }
+@media only screen and (max-width: 530px) {
+  .sectionnames {
+    font-size: 15px;
+  }
+  .sectiondata {
+    font-size: 45px;
+    font-weight: bold;
+  }
+}

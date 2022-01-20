@@ -24,7 +24,7 @@ const Countries = ({ posts }) => {
           maxWidth: "1000px",
         }}
       >
-        <div style={{ padding: "30px 0px 10px 10px" }}>
+        <div style={{ padding: "30px 0px 10px 15px" }}>
           <span style={{ fontWeight: "bold" }}>Search : </span>
 
           <input
@@ -40,8 +40,8 @@ const Countries = ({ posts }) => {
             }}
           />
         </div>
-        <TableContainer component={Paper}>
-          <Table style={{}} sx={{ minWidth: 650 }} aria-label="simple table">
+        <TableContainer style={{ margin: "15px" }} component={Paper}>
+          <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               <TableRow>
                 <TableCell style={{ fontSize: "16px", fontWeight: "bold" }}>

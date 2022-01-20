@@ -11,11 +11,11 @@ const Navbar = () => {
           <div className={styles.navlogo}>
             <Image
               src={navlogo}
-              width={55}
-              height={55}
+              width={50}
+              height={50}
               alt="Covid-19 virus logo"
             />
-            Covid-19 Info
+            Covid-19
           </div>
         </Link>
         <div className={styles.secondnavdiv}>
