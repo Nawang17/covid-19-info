@@ -11,8 +11,8 @@ const Navbar = () => {
           <div className={styles.navlogo}>
             <Image
               src={navlogo}
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               alt="Covid-19 virus logo"
             />
             Covid-19

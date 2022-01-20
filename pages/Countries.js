@@ -146,7 +146,7 @@ const Countries = ({ posts }) => {
 };
 
 export default Countries;
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch("https://cov19.cc/report.json");
   const hposts = await res.json();
   const posts = await hposts.regions.world.list;

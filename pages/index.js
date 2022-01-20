@@ -48,7 +48,7 @@ export default function Home({ posts, lastupdated }) {
     </>
   );
 }
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch("https://cov19.cc/report.json");
   const hposts = await res.json();
   const posts = await hposts.regions.world.totals;

@@ -2,12 +2,12 @@
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 87px;
-
+  height: 92vh;
   padding: 0 10px;
 }
 .section {
   align-items: center;
-  height: 90.5vh;
+  height: 92vh;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
