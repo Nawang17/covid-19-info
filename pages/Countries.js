@@ -24,7 +24,7 @@ const Countries = ({ posts }) => {
           maxWidth: "1000px",
         }}
       >
-        <div style={{ padding: "30px 0px 10px 15px" }}>
+        <div style={{ padding: "10px 0px 10px 15px" }}>
           <span style={{ fontWeight: "bold" }}>Search : </span>
 
           <input

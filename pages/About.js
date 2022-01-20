@@ -10,7 +10,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{ margin: "87px auto 0px auto", maxWidth: "1000px" }}>
-        <section style={{ padding: "20px" }}>
+        <section style={{ padding: "0px 20px 20px 20px" }}>
           <h2> What it Covid-19?</h2>
           <p>
             Coronavirus disease (COVID-19) is an infectious disease caused by

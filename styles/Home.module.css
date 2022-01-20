@@ -8,10 +8,14 @@
 .section {
   align-items: center;
   height: 92vh;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #01070a;
 }
 .sectionnames {
   font-size: 25px;
@@ -29,5 +33,9 @@
   .sectiondata {
     font-size: 45px;
     font-weight: bold;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 25px;
   }
 }

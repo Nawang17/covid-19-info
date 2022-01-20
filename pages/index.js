@@ -13,7 +13,8 @@ export default function Home({ posts, lastupdated }) {
 
       <main className={styles.main}>
         <section className={styles.section}>
-          <div style={{ color: "black" }} className={styles.sectiondata}>
+          <h1 className={styles.title}>Overview</h1>
+          <div style={{ color: "#1c786b" }} className={styles.sectiondata}>
             {" "}
             {posts.confirmed.toLocaleString()}
           </div>
