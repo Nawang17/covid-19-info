@@ -24,7 +24,7 @@ const Countries = ({ posts }) => {
           maxWidth: "1000px",
         }}
       >
-        <div style={{ padding: "10px 0px 10px 15px" }}>
+        {/* <div style={{ padding: "10px 0px 10px 15px" }}>
           <span style={{ fontWeight: "bold" }}>Search : </span>
 
           <input
@@ -39,7 +39,7 @@ const Countries = ({ posts }) => {
               fontSize: "15px",
             }}
           />
-        </div>
+        </div> */}
         <TableContainer style={{ margin: "15px" }} component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
@@ -71,13 +71,14 @@ const Countries = ({ posts }) => {
               </TableRow>
             </TableHead>
             <TableBody>
-              {posts
-                .sort((a, b) => a.confirmed - b.confirmed)
-                .filter((val) => {
+              {/*  .filter((val) => {
                   return val.country
                     .toLowerCase()
                     .includes(search.toLowerCase());
-                })
+                }) */}
+              {posts
+                .sort((a, b) => a.confirmed - b.confirmed)
+
                 .map((row, key) => (
                   <TableRow
                     key={key}
