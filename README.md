@@ -1,6 +1,6 @@
-<h1> Covid-19 information website <h1>
+# Covid-19 information website 
 
-<p>Get current data of covid-19  cases </p> 
+Get current data of covid-19  cases 
 
-<p>LIVE DEMO - <a href='https://covid-19-infos.vercel.app/'>https://covid-19-infos.vercel.app/ </a></p> 
+LIVE DEMO - <a href='https://covid-19-hack4pan.vercel.app/'>https://covid-19-hack4pan.vercel.app/</a>
   
